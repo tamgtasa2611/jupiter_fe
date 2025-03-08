@@ -236,7 +236,7 @@ const Header = () => {
     {
       key: "3",
       label: (
-        <Link href="/wishlist">
+        <Link href="/yeu-thich">
           <Space>
             <HeartOutlined />
             Danh sách yêu thích
@@ -359,7 +359,7 @@ const Header = () => {
               {/* Wishlist */}
               <div className="relative">
                 <Badge count={wishlistCount} size="small">
-                  <Link href="/wishlist">
+                  <Link href="/yeu-thich">
                     <Button
                       type="text"
                       icon={<HeartOutlined />}
@@ -423,7 +423,7 @@ const Header = () => {
               {/* Shopping cart */}
               <div className="relative">
                 <Badge count={cartCount} size="small">
-                  <Link href="/cart">
+                  <Link href="/gio-hang">
                     <Button
                       type="text"
                       icon={<ShoppingCartOutlined />}
@@ -528,7 +528,7 @@ const Header = () => {
                 items={[
                   { key: "profile", label: <Link href="/profile">Thông tin cá nhân</Link> },
                   { key: "orders", label: <Link href="/orders">Đơn hàng của tôi</Link> },
-                  { key: "wishlist", label: <Link href="/wishlist">Danh sách yêu thích</Link> },
+                  { key: "wishlist", label: <Link href="/yeu-thich">Danh sách yêu thích</Link> },
                   { key: "logout", label: <a onClick={() => setIsLoggedIn(false)}>Đăng xuất</a> },
                 ]}
                 style={{ border: "none" }}
