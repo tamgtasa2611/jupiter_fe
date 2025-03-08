@@ -504,7 +504,7 @@ const Header = () => {
                   Đăng nhập
                 </Button>
               </Link>
-              <Link href="/register" className="flex-1">
+              <Link href="/dang-ky" className="flex-1">
                 <Button block>Đăng ký</Button>
               </Link>
             </div>
