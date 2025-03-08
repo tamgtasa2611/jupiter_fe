@@ -205,7 +205,7 @@ const Header = () => {
         </Link>
       ),
     },
-    { key: "about", label: <Link href="/about">Về chúng tôi</Link> },
+    { key: "about", label: <Link href="/gioi-thieu">Về chúng tôi</Link> },
     { key: "contact", label: <Link href="/contact">Liên hệ</Link> },
   ];
 
