@@ -10,6 +10,7 @@ import {
   MailOutlined,
   EnvironmentOutlined,
   SendOutlined,
+  TikTokOutlined,
 } from "@ant-design/icons";
 import Link from "next/link";
 
@@ -39,7 +40,7 @@ const Footer = () => {
                 <InstagramOutlined className="text-xl text-gray-600 hover:text-pink-600" />
               </Link>
               <Link href="#">
-                <TwitterOutlined className="text-xl text-gray-600 hover:text-blue-400" />
+                <TikTokOutlined className="text-xl text-gray-600 hover:text-blue-400" />
               </Link>
               <Link href="#">
                 <YoutubeOutlined className="text-xl text-gray-600 hover:text-red-600" />
