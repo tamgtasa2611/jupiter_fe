@@ -10,7 +10,7 @@ const HeroBanner = () => {
     <div className="hero-section min-h-[600px] flex items-center relative bg-[#f8f9fa]">
       <div
         className="absolute inset-0 z-0 bg-cover bg-center opacity-20"
-        style={{ backgroundImage: "url(/images/hero-bg.jpg)" }}
+        style={{ backgroundImage: "url(hero.jpg)" }}
       ></div>
       <div className="container mx-auto px-4 z-10">
         <Row gutter={[24, 24]} align="middle">
@@ -43,7 +43,7 @@ const HeroBanner = () => {
           <Col xs={24} md={12}>
             <div className="flex justify-center">
               <img
-                src="/images/hero-product.png"
+                src="shirt.webp"
                 alt="Jupiter fashion collection"
                 className="max-h-[500px] object-contain"
               />
