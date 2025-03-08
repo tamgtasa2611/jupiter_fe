@@ -117,20 +117,10 @@ const Footer = () => {
         <Divider className="my-8" />
 
         <Row justify="space-between" align="middle">
-          <Col xs={24} md={12} className="text-center md:text-left mb-4 md:mb-0">
+          <Col xs={24} className="text-center mb-4 md:mb-0">
             <Text className="text-gray-500">
-              © {new Date().getFullYear()} Jupiter Store. Tất cả quyền được bảo lưu.
+              T & T © {new Date().getFullYear()} Jupiter Store
             </Text>
-          </Col>
-          <Col xs={24} md={12} className="text-center md:text-right">
-            <Space split={<Divider type="vertical" />}>
-              <Link href="#" className="text-gray-500 hover:text-blue-500">
-                Điều khoản
-              </Link>
-              <Link href="#" className="text-gray-500 hover:text-blue-500">
-                Quyền riêng tư
-              </Link>
-            </Space>
           </Col>
         </Row>
       </div>

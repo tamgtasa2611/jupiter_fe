@@ -3,11 +3,11 @@ import "@ant-design/v5-patch-for-react-19";
 
 import { Layout } from "antd";
 import Header from "./components/customer/Header";
-import HeroBanner from "./components/customer/HeroBanner";
-import Features from "./components/customer/Features";
-import ProductShowcase from "./components/customer/ProductShowcase";
-import Testimonials from "./components/customer/Testimonials";
-import Newsletter from "./components/customer/Newsletter";
+import HeroBanner from "./components/customer/landingPage/HeroBanner";
+import Features from "./components/customer/landingPage/Features";
+import ProductShowcase from "./components/customer/landingPage/ProductShowcase";
+import Testimonials from "./components/customer/landingPage/Testimonials";
+import Newsletter from "./components/customer/landingPage/Newsletter";
 import Footer from "./components/customer/Footer";
 
 const { Content } = Layout;

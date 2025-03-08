@@ -405,7 +405,7 @@ const Header = () => {
                   </Button>
                 </Dropdown>
               ) : (
-                <Link href="/login">
+                <Link href="/dang-nhap">
                   <Button 
                     type="text" 
                     size="large" 
@@ -499,7 +499,7 @@ const Header = () => {
             </div>
           ) : (
             <div className="flex gap-2 mb-4">
-              <Link href="/login" className="flex-1">
+              <Link href="/dang-nhap" className="flex-1">
                 <Button type="primary" block>
                   Đăng nhập
                 </Button>
