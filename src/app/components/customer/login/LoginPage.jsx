@@ -81,7 +81,7 @@ const LoginForm = () => {
         <div className="text-center mb-4">
           <Text className="text-gray-500">
             Chưa có tài khoản?
-            <Link href="/register" className="text-blue-500 hover:text-blue-700 ml-1">
+            <Link href="/dang-ky" className="text-blue-500 hover:text-blue-700 ml-1">
               Đăng ký ngay
             </Link>
           </Text>
